@@ -1,0 +1,953 @@
+.pac-container.pac-logo {
+  z-index: 2147483647 !important;
+}
+.pac-container.pac-logo .pac-item  span {
+  color: #000!important;
+  font-size: 13px;
+  /*font-weight: normal !important;*/
+  margin: 0;
+}
+#booking_form #map {
+  height: 384px;
+  width: 637px;
+  margin:auto;
+}
+#booking_form #searchInput {
+	padding: 9px;
+	font-size: 18px;
+	margin-right: 0.8rem;
+	height: 47px;
+	border-radius: 6px;
+	flex-grow:1;
+}
+#booking_form .geo-data {
+  color: rgb(255, 191, 77);
+  list-style: none;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 10px;
+}
+#booking_form .geo-data li span {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+/*7feb*/
+.timings.disabled_timings
+{
+  color:#808080!important;
+}
+.timings.disabled_timings:hover {
+background: cornsilk;
+color: #808080 !important;
+}
+/*7feb*/
+
+/*start calender time css*/
+  .text {
+    text-align: left;
+  }
+  #date_time_sec h3 {
+    text-align: center;
+    padding-left: 55px;
+    color: rgb(255, 191, 77);
+  }
+  #all_timings {
+    text-align: left;
+  }
+  .time_button {
+    color: rgb(255, 191, 77);
+    background-color: transparent;
+    border-color: rgb(255, 191, 77);
+    padding: 12px;
+  }
+  .time_button:hover
+  {
+    color: rgb(255, 191, 77);
+     background: #6f3e3e;
+  }
+  #confirm_page_body {
+    border: 1px solid rgb(255, 191, 77);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 66%;
+    text-align: center;
+  }
+
+  .confirm_booking_request {
+    color: rgb(255, 191, 77);
+    background-color: transparent;
+    border-color: rgb(255, 191, 77);
+    padding: 12px;
+    margin:10px 7px;
+  }
+  .confirm_booking_request:hover
+  {
+    color: rgb(255, 191, 77);
+     background: #6f3e3e;
+  }
+  #confirm_page_button {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover {
+    background: transparent;
+  }
+  #all_timings .timings {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 191, 77);
+    padding:0px 22px;
+  }
+  #all_timings .m-2 {
+    margin: 0!important;
+  }
+  .dow {
+    padding: 12px;
+  }
+  .timings:hover {
+    background-color: rgb(255, 191, 77);
+    color: #c42424!important;
+  }
+  .datepicker table tr td.active.active {
+    background-image: inherit;
+  }
+  .full_sec > form {
+    float: right;
+  }
+  .full_sec > form {
+    float: right;
+    overflow-y: auto;
+    height: 255px;
+    overflow-x: hidden;
+  }
+  #all_timings div {
+    white-space: nowrap;
+    padding: 0 10px;
+  }
+  /*end calender time css*/
+
+
+  .datepicker {
+    direction: ltr;
+    color: rgb(255, 191, 77);
+    display: block;
+  }
+  .datepicker table tr td.day.focused, .datepicker table tr td.day:hover {
+    background: #f3a106;
+    color: #fff;
+  }
+  
+  /*start booking form css*/
+  .booking_form_header > h4 {
+    color: rgb(255, 191, 77);
+    font-size:18px;
+    }
+    .price_sec ul li p, span {
+    color: rgb(255, 191, 77);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    }
+    .booking_form_header > h1 {
+    color: rgb(255, 191, 77);
+    font-size: 20px;
+    }
+    .time_locaiton > i {
+    font-size: 20px;
+    color: rgb(255, 191, 77);
+    }
+    .time_locaiton > span {
+    color: rgb(255, 191, 77);
+    font-size: 20px;
+    }
+    .price_sec ul li p, span {
+    color: rgb(255, 191, 77);
+    font-size: 24px;
+    font-weight: unset;
+    margin: 0;
+    }
+    .booking_date i {
+    color: rgb(255, 191, 77);
+    font-size: 20px;
+    }
+    .booking_form_header {
+    border-top: 1px solid rgb(255, 191, 77);
+    border-bottom: 1px solid rgb(255, 191, 77);
+    margin-top: 20px;
+    padding: 20px 0;
+    }
+    #enter_details {
+    color: rgb(255, 191, 77);
+    text-align: left;
+    padding: 15px 0 0px 19px;
+    margin-bottom: -13px;
+    }
+    #back_button > i, #confirm_back_button > i {
+      border: 1px solid #765f5f;
+      border-radius: 50%;
+      padding: 3px;
+      font-size: 30px;
+      color: #a4652c;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      line-height: 38px;
+      margin: 20px;
+    }
+
+  .bf_errors {
+    text-align: left;
+    margin-left: 16px;
+  }
+  .ef_errors
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  #date_time_sec {
+    background-color: #490411;
+    border: 0px;
+  }          
+  .form>input.booking_form_input
+  {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .form-control {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .middle_box {
+    padding-top: 0px !important;
+  }
+  #back_button  
+  {
+    text-align: left;
+    height: 0;
+  }
+  #confirm_back_button
+  {
+    height:0%;
+  }
+  #back_button > i:hover, #confirm_back_button > i:hover {
+    color: rgb(255, 191, 77);;
+    border-color: rgb(255, 191, 77);;
+  }
+  /*end booking form css*/
+
+.time_button
+{
+	display: none;
+}
+
+#booking_modal_dialog {
+	max-width: 725px;
+}
+
+.width94 {
+    max-width: 851px;
+    margin: 0px auto;
+    height: auto;
+    background-color: #edecec;
+}
+.full_sec {
+    width: 640px;
+    margin: 1rem auto;
+}
+.full_sec input {
+    height: 45px;
+}
+.full_sec {
+    width: 90%;
+    /* background-color: #fff; */
+    box-sizing: border-box;
+    /* border: 1px solid #e1e1e5; */
+    border-radius: 6px;
+    /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05); */
+   
+}
+.full_sec h1 {
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.full_sec label {
+    text-transform: uppercase;
+    color: #201c3b;
+    font-size: 14px;
+    font-weight: 600;
+}
+.date_view{
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.middle_box {
+    float: left;
+    width: 100%;
+    padding-top: 34px;
+}
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    width: 320px;
+
+}
+
+.full_sec {
+    width: 100%;
+}
+.booking_sec {
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e5;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+h3.select_sec {
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.date_view {
+    padding: 0 !important;
+    margin: 2rem auto !important;
+}
+.ui-datepicker .ui-datepicker-prev {
+    right: 32px !important;
+    left: auto !important;
+    border: 1px solid #cdccd5;
+}
+.ui-datepicker .ui-datepicker-next{
+    border: 1px solid #cdccd5;
+}
+.ui-datepicker .ui-datepicker-header{
+    background: transparent !important;
+    border: none;
+}
+.ui-datepicker .ui-datepicker-title{
+    text-align: left !important;
+    margin-left: 10px !important;
+    font-weight: normal !important;
+}
+.ui-datepicker th{
+    font-weight: normal !important;
+}
+.ui-datepicker td span, .ui-datepicker td a{
+    text-align: center !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    background: transparent !important;
+    border: 1px solid transparent !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active{
+    border-radius: 50%;
+    background: #5951FF !important;
+    color: #fff !important;
+}
+.ui-datepicker td{
+    padding: 7px !important;
+}
+.ui-state-default{
+    color: #5951FF !important;
+}
+.ui-state-default.ui-state-hover{
+    background: #eee !important;
+    border-radius: 50% !important;
+}
+.ui-state-default.ui-state-highlight.ui-state-active{
+    background: #5951FF !important;
+}
+.ui-state-default.ui-state-active.ui-state-hover{
+    background: #5951FF !important;
+}
+.ui-icon-circle-triangle-w{
+    background-position: -97px 0px !important;
+}
+.ui-icon-circle-triangle-e {
+    background-position: -31px 0px !important;
+}
+.ui-datepicker-next-hover, .ui-datepicker-prev-hover{
+    background: #e5e5e5 !important;
+}
+.ui-datepicker .ui-datepicker-next-hover{
+    right: 2px !important;
+    top: 2px !important;
+    border: 1px solid #cdccd5 !important;
+}
+.ui-datepicker .ui-datepicker-prev-hover{
+    border: 1px solid #cdccd5 !important;
+    top: 2px !important;
+}
+.width94.booking_sec {
+    width: 687px;
+}
+
+.span_sec.timings:hover {
+    color: #fff;
+    background-color: #5951FF;
+    border-color: #5951FF;
+}
+h3.select_sec.time {
+    padding-left: 11px;
+}
+
+/*6feb2020*/
+.datepicker table tr td span {
+width: 37% !important;
+}
+/*6feb2020*/
+
+
+
+/*start submit email form and booking form css*/
+/*.modal-body {
+  padding: 0 !important;
+  background-color: #490411;
+}*/
+.main-div {
+      background: #490411;
+      width:100%;
+      text-align: center;
+      padding:30px;
+  }
+ .booking_steps_cont+.main-div+.email_sent_popup
+ {
+    display:none;
+ }
+ 
+  .image img {
+  width: 100%;
+  max-width: 100px;
+  }
+  .form{
+  margin-top:5px;
+  }
+  .image {
+  text-align: center;
+  }
+  label {
+  display: block!important;
+  }
+  .label {
+  color: rgb(255, 191, 77);
+  text-align: left;
+  padding-top: 13px;
+  padding-left: 20px;
+  }
+  /*.form input {
+  width:90%;
+  padding:3px;
+  }*/
+  .form-btn {
+  margin-top:20px;
+  }
+  .form-btn button, button#confirmPosition {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 5px 20px;
+  background: transparent;
+  border: 1px solid rgb(255, 191, 77);
+  color: rgb(255, 191, 77);
+  }
+  .form-btn button:hover, button#confirmPosition:hover{
+  background: rgb(255, 191, 77);
+  color:#490411;
+  }
+  #email_form > #event {
+    width: 90%;
+    padding: 5px;
+  }
+/*end submit email form and booking form css*/
+
+/*start 26feb2020_0600_pm*/
+@media only screen and (max-width: 767px) {
+
+.top_head h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 0;
+  line-height: 70px;
+}
+
+.top_head h1 span {
+  font-size: 2.5rem;
+}
+
+.img_dv.lft {
+  text-align: center;
+  bottom: 0;
+}
+
+.img_dv.mid {
+  
+  bottom: 0;
+}
+
+.img_dv.rgt {
+  text-align: center;
+  bottom: 0;
+}
+.price_sec ul {
+margin-bottom: 2rem;
+}
+
+}
+/*end 26feb2020_0600_pm*/
+
+/*start 28feb2020_1211_pm*/
+/*----------select date--------------*/
+@media only screen and (max-width: 767px){
+
+ #map {width: 100%!important;}
+ #searchInput {
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+}
+ #searchInput {
+  left: 09px !important;
+}
+
+ .gm-style-mtc {
+  top: 46px;
+}
+ #map {
+  height: 292px;
+  width: 224px;
+  margin: auto;
+}
+
+ .width94.booking_sec {
+width: 100%;
+}
+ .datepicker table {
+display: block;
+}
+ .dow {
+padding: 7px;
+}
+ #date_time_sec h3 {
+text-align: left;
+padding-left: 74px;
+color: rgb(255, 191, 77);
+}
+ #all_timings {
+text-align: left;
+}
+ .full_sec > form {
+float: unset;
+}
+ .full_sec {
+width: 100%;
+float: left;
+}
+
+
+/*--------------second-page-------------*/
+
+ #back_button > i,  #confirm_back_button > i {
+padding: 0;
+font-size: 24px;
+height: 40px;
+width: 40px;
+}
+ .booking_form_header > h1 {
+font-size: 19px;
+}
+ .price_sec ul li p, span {
+font-size: 20px;
+}
+ .booking_date i {
+font-size: 17px;
+}
+ .time_locaiton > i {
+font-size: 17px;
+}
+ .time_locaiton > span {
+font-size: 18px;
+}
+ #enter_details {
+padding: 15px 0 14px 10px;
+}
+
+
+
+/*-----------------third page-------------*/
+
+
+ #back_button > i,  #confirm_back_button > i {
+padding: 0px;
+font-size: 25px;
+height: 40px;
+width: 40px;
+margin: 2px;
+}
+ #confirm_page_body {
+padding: 13px;
+width: 96%;
+margin-top: 20px;
+}
+ .price_sec ul li p, span {
+font-size: 20px;
+}
+ #confirm_page_body p {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+}
+/*end 28feb2020_1211_pm*/
+
+/*start 25 March 2020*/
+.onlineBookingBtnCont{text-align:center; padding: 57px 0;}
+
+button.onlineBookingBtn.btn {
+margin: auto;
+text-align: center;
+background: #490411;
+color: #FFF;
+padding: 10px 30px;
+border-radius: 0px;
+}
+
+
+.booking_steps_cont h2 {
+color: #fff;
+}
+.modal-dialog.booking_steps_contMD .booking_steps_cont ol li {
+    color: #fff;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+.booking_steps_cont ol li {
+color: #fff;
+padding-bottom: 1rem;
+}
+/*
+#myModal .modal-body {
+background-color: #490411;
+padding: 35px;
+border-radius: 10px;
+border: 10px solid #ffbf4d;
+}
+*/
+.modal-dialog.booking_steps_contMD .booking_steps_cont button.ok_btn {
+    text-align: center;
+    margin: auto;
+    padding: 5px 37px;
+    background: #ffbf4d;
+    border: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 11rem;
+}
+/*end 25 March 2020*/
+
+/*start map checkbox*/
+#booking_form .check input[type="checkbox"] {
+  display: none;
+}
+#booking_form .check input[type="checkbox"]:checked + label .box {
+  -webkit-animation: animOnTransform 1s 1 forwards;
+          animation: animOnTransform 1s 1 forwards;
+  background: rgba(0, 0, 0, 0.5);
+}
+#booking_form .check input:checked + label .box i {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
+  opacity: 1;
+}
+#booking_form .check label {
+  min-width: 100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  cursor: pointer;
+}
+#booking_form .check label .box {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  -webkit-transition: background 300ms ease;
+  transition: background 300ms ease;
+}
+#booking_form .check label .box:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+#booking_form .check label .box i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    display: inline-block;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition-delay: 200ms;
+    transition-delay: 200ms;
+    -webkit-transform: translate(-50%, -50%) scale(4);
+    transform: translate(-50%, -50%) scale(4);
+    color: #fff;
+}
+#booking_form .check input:checked + label .box i {
+    webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-delay: 400ms;
+    transition-delay: 400ms;
+    opacity: 1;
+    color: rgb(255, 191, 77);
+}
+@-webkit-keyframes animOn {
+  40% {
+    height: 20px;
+    width: 100px;
+  }
+  50% {
+    height: 60px;
+    width: 30px;
+  }
+  60% {
+    height: 40px;
+    width: 70px;
+  }
+  70% {
+    height: 55px;
+    width: 45px;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@keyframes animOn {
+  40% {
+    height: 20px;
+    width: 100px;
+  }
+  50% {
+    height: 60px;
+    width: 30px;
+  }
+  60% {
+    height: 40px;
+    width: 70px;
+  }
+  70% {
+    height: 55px;
+    width: 45px;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+  }
+}
+@-webkit-keyframes animOnTransform {
+  40% {
+    -webkit-transform: scale(1.5, 0.5);
+            transform: scale(1.5, 0.5);
+  }
+  50% {
+    -webkit-transform: scale(0.5, 1.5);
+            transform: scale(0.5, 1.5);
+  }
+  60% {
+    -webkit-transform: scale(1.3, 0.6);
+            transform: scale(1.3, 0.6);
+  }
+  70% {
+    -webkit-transform: scale(0.8, 1.2);
+            transform: scale(0.8, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@keyframes animOnTransform {
+  40% {
+    -webkit-transform: scale(1.5, 0.5);
+            transform: scale(1.5, 0.5);
+  }
+  50% {
+    -webkit-transform: scale(0.5, 1.5);
+            transform: scale(0.5, 1.5);
+  }
+  60% {
+    -webkit-transform: scale(1.3, 0.6);
+            transform: scale(1.3, 0.6);
+  }
+  70% {
+    -webkit-transform: scale(0.8, 1.2);
+            transform: scale(0.8, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+/*end map checkbox*/
+
+#booking_form .check {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+#booking_form .check label .box {
+   margin-right: 1rem;
+    float: left;
+}
+#booking_form .check label {
+	color: #fff;
+	display: flex !important;
+	margin-left: 0.8rem;
+	border: 1px solid white;
+	padding: 5px 5px 5px 11px;
+	border-radius: 6px;
+	margin-right: 1px;
+}
+#booking_form .check input[type="checkbox"]:checked + label:hover .box i {
+	color: rgb(57, 180, 225);
+}
+#booking_form .check label:hover {
+	color: rgb(57, 180, 225);
+	border-color: rgb(57, 180, 225);
+}
+#booking_form .check input[type="checkbox"]:checked ~ label {
+	color: rgb(255, 191, 77);
+	border-color: rgb(255, 191, 77);
+}
+#booking_form .check input[type="checkbox"]:checked ~ label:hover {
+	color: rgb(57, 180, 225);
+	border-color: rgb(57, 180, 225);
+}
+
+/*start 27march2020_1108_pm*/
+/* start new1*/
+.modal-dialog.main-divMD h3.email_form_heading {
+    font-size: 29px;
+    color: #490411;
+    font-weight: normal;
+}
+.modal-dialog.main-divMD .form-btn button {
+    color: #490411;
+    border: 1px solid #490411;
+    font-size: 17px;
+    font-weight: 400;
+}
+.modal-dialog.main-divMD{
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    border: 10px solid #490411;
+}
+.modal-dialog.main-divMD .modal-dialog.main-divMD h3.email_form_heading span {
+    color: #000;
+    font-weight: 600;
+}
+.modal-dialog.main-divMD .modal-content {
+    border: none;
+}
+/*end new1*/
+
+
+/*start new2*/
+.modal-dialog.email_sent_popupMD .email_sent_popup {
+    text-align: center;
+}
+
+.modal-dialog.main-divMD .modal-content {
+    border: none;
+}
+.modal-dialog.email_sent_popupMD .email_sent_popup button {
+    padding: 3px 21px;
+    background: transparent;
+    border: 6px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal-dialog.email_sent_popupMD p.email_field {
+    background: #fdcf51;
+    padding: 5px;
+    width: 57%;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/*end new2*/
+
+/*start new3*/
+
+.modal-dialog.booking_steps_contMD{
+    max-width: 600px;
+    margin: 1.75rem auto;
+    border-radius: 20px;
+    border: 10px solid #ffbf4d;
+    background: #490411;
+    padding: 20px;
+}
+
+.modal-dialog.booking_steps_contMD .modal-content {
+    border: none;
+}
+
+.modal-dialog.booking_steps_contMD .booking_steps_cont ol {
+    padding: 0;
+    margin: 12px 0;
+}
+
+.modal-dialog.booking_steps_contMD .booking_steps_cont h2 span{color:#3aea3a;}
+.modal-dialog.booking_steps_contMD .booking_steps_cont ol li span {
+    border-radius: 100%;
+    background: #3aea3a;
+    color: #000;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 20px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+	margin-right:10px
+}
+/*end new3*/
+
+/*end 27march2020_1108_pm*/
